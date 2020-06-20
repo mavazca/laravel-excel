@@ -60,14 +60,14 @@
       <div class="table-responsive">
         <table class="table table-bordered table-striped">
           <tr>
-            <th>id</th>
-            <th>name</th>
-            <th>type</th>
-            <th>category</th>
-            <th>treatment</th>
-            <th>class</th>
-            <th>unit_measurement</th>
-            <th>weight</th>
+            <th>ID</th>
+            <th>Nome Comum do Resíduo</th>
+            <th>Tipo de Resíduo</th>
+            <th>Categoria</th>
+            <th>Tecnologia de Tratamento</th>
+            <th>Classe</th>
+            <th>Unidade de Medida</th>
+            <th>Peso</th>
           </tr>
           @foreach($data as $row)
             <tr>
